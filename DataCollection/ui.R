@@ -40,7 +40,7 @@ shinyUI(fluidPage(
             ),
             
             
-            tabPanel("Table Datos",
+            tabPanel("Data Table",
                      dataTableOutput("OutputTable"))
             
           ),
